@@ -4,7 +4,7 @@ on:
     branches:
     - main
     paths:
-    - docker-hub
+    - docker-hub/docker-hub
 jobs:
   docker:
     runs-on: ubuntu-latest
