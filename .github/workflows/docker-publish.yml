@@ -1,10 +1,7 @@
 name: build-and-push-dockerimage
 on:
   push:
-    branches:
-    - main
-    paths:
-    - docker-hub/docker-hub
+    branches: [main]
 jobs:
   docker:
     runs-on: ubuntu-latest
